@@ -1,0 +1,60 @@
+.inputwrapper {
+  display: flex;
+  gap: 80px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.passwordwrappwer {
+  position: relative;
+  display: inline;
+}
+.registerform label {
+  display: inline-block;
+  width: 200px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.registerform input {
+  width: 245px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.eye {
+  position: absolute;
+  top: -1px;
+  right: 7px;
+}
+
+.loginbtn {
+  display: block;
+  width: 129px;
+  height: 45px;
+  margin: auto;
+  background-color: #73abff;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.error {
+  color: #ff0e0e;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
